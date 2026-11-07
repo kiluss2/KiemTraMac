@@ -7,9 +7,11 @@ Chạy được trên mọi máy Mac (Apple silicon và Intel) từ macOS 13 tr�
 
 ## Cách chạy (khuyên dùng)
 
-Trên máy cần kiểm tra:
-1. Mở trang GitHub này bằng trình duyệt có sẵn (Safari, Chrome...) và bấm nút **copy** ở góc phải ô lệnh bên dưới. Như vậy không phải gõ tay.
-2. Mở **Terminal** (Cmd+Space, gõ `Terminal`, Enter), dán lệnh vào (Cmd+V) rồi nhấn Enter.
+Lệnh phải chạy **trên chính máy định mua**, không phải trên máy hay điện thoại của bạn.
+
+1. Nếu bạn đang đọc trang này trên điện thoại hoặc máy khác: trên máy định mua, mở trình duyệt và vào **github.com/kiluss2/KiemTraMac**. Đang đọc trên máy định mua rồi thì bỏ qua bước này.
+2. Bấm nút **copy** ở góc phải ô lệnh bên dưới, để khỏi phải gõ tay.
+3. Mở **Terminal** (Cmd+Space, gõ `Terminal`, Enter), dán lệnh vào (Cmd+V) rồi nhấn Enter.
 
 ```bash
 cd /tmp && curl -fsSL https://github.com/kiluss2/KiemTraMac/archive/refs/heads/main.tar.gz | tar xz && bash KiemTraMac-main/KiemTraMac.command
