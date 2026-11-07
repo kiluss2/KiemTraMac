@@ -7,7 +7,9 @@ Chạy được trên mọi máy Mac (Apple silicon và Intel) từ macOS 13 tr�
 
 ## Cách chạy (khuyên dùng)
 
-Trên máy cần kiểm tra, mở trang này bằng Safari, mở **Terminal** (Cmd+Space, gõ `Terminal`), rồi dán dòng sau:
+Trên máy cần kiểm tra:
+1. Mở trang GitHub này bằng trình duyệt có sẵn (Safari, Chrome...) và bấm nút **copy** ở góc phải ô lệnh bên dưới. Như vậy không phải gõ tay.
+2. Mở **Terminal** (Cmd+Space, gõ `Terminal`, Enter), dán lệnh vào (Cmd+V) rồi nhấn Enter.
 
 ```bash
 cd /tmp && curl -fsSL https://github.com/kiluss2/KiemTraMac/archive/refs/heads/main.tar.gz | tar xz && bash KiemTraMac-main/KiemTraMac.command
